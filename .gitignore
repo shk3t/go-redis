@@ -1,0 +1,25 @@
+# Personal
+.vscode/
+.idea/
+pyrightconfig.json
+
+# Private data
+.env
+env.*
+
+# Python
+migrations/
+__pycache__/
+.venv/
+venv/
+
+# Database
+db.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Builds
+build/
+
