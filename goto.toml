@@ -1,0 +1,10 @@
+name = "Redis Tasks"
+language = "go"
+modules = ["redis"]
+
+containerization = "docker-compose"
+
+[[tasks]]
+name = "Pubsub reverse"
+description = "Take messages from one channel and publish them to another one in reverse."
+injectfiles = ["redis-functions/pubsub.go"]
