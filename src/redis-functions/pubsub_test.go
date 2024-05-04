@@ -72,7 +72,7 @@ func PubsubReverserSingleTest(
 	durationMs int,
 	messages *[]string,
 ) []string {
-	responses := []string{}
+    responses := []string{}
 
 	pubsub := rdb.Subscribe(ctx, destinationChannel)
 	defer pubsub.Close()
