@@ -7,4 +7,5 @@ containerization = "docker-compose"
 [[tasks]]
 name = "Pubsub reverse"
 description = "Take messages from one channel and publish them to another one in reverse."
+runtarget = "TestPubsubReverser"
 files = ["redis-functions/pubsub.go"]
